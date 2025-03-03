@@ -1,0 +1,99 @@
+// Place your key bindings in this file to override the defaults
+[
+{ 
+  "key": "ctrl+7", 
+  "command": "vim.remap", 
+  "when": "inputFocus && vim.mode == ‘Insert’", 
+  "args": { 
+    "after": ["{"] 
+  } 
+},
+{ 
+  "key": "ctrl+8", 
+  "command": "vim.remap", 
+  "when": "inputFocus && vim.mode == ‘Insert’", 
+  "args": { 
+    "after": ["["] 
+  } 
+}, 
+{ 
+  "key": "ctrl+h", 
+  "command": "vim.remap", 
+  "when": "inputFocus && vim.mode == ‘Insert’", 
+  "args": { 
+    "after": ["Left"] 
+  } 
+}, 
+{ 
+  "key": "ctrl+j", 
+  "command": "vim.remap", 
+  "when": "inputFocus && vim.mode == ‘Insert’", 
+  "args": { 
+    "after": ["down"] 
+  } 
+}, 
+{ 
+  "key": "ctrl+k", 
+  "command": "vim.remap", 
+  "when": "inputFocus && vim.mode == ‘Insert’", 
+  "args": { 
+    "after": ["up"] 
+  } 
+}, 
+{ 
+  "key": "ctrl+l", 
+  "command": "vim.remap", 
+  "when": "inputFocus && vim.mode == ‘Insert’", 
+  "args": { 
+    "after": ["right"] 
+  } 
+},
+{ 
+  "key": "ctrl+7", 
+  "command": "vim.remap", 
+  "when": "inputFocus && vim.mode == ‘Insert’", 
+  "args": { 
+    "after": ["{"] 
+  } 
+}, 
+{ 
+  "key": "ctrl+8", 
+  "command": "vim.remap", 
+  "when": "inputFocus && vim.mode == ‘Insert’", 
+  "args": { 
+    "after": ["["] 
+  } 
+}, 
+{ 
+  "key": "ctrl+h", 
+  "command": "vim.remap", 
+  "when": "inputFocus && vim.mode == ‘Insert’", 
+  "args": { 
+    "after": ["Left"] 
+  } 
+}, 
+{ 
+  "key": "ctrl+j", 
+  "command": "vim.remap", 
+  "when": "inputFocus && vim.mode == ‘Insert’", 
+  "args": { 
+    "after": ["down"] 
+  } 
+}, 
+{ 
+  "key": "ctrl+k", 
+  "command": "vim.remap", 
+  "when": "inputFocus && vim.mode == ‘Insert’", 
+  "args": { 
+    "after": ["up"] 
+  } 
+}, 
+{ 
+  "key": "ctrl+l", 
+  "command": "vim.remap", 
+  "when": "inputFocus && vim.mode == ‘Insert’", 
+  "args": { 
+    "after": ["right"] 
+  } 
+}
+]

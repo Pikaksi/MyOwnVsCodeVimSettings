@@ -1,0 +1,47 @@
+{
+    "telemetry.telemetryLevel": "off",
+    "dotnet.codeLens.enableReferencesCodeLens": false,
+    "vim.insertModeKeyBindings": [ 
+        { 
+            "before": ["<C-l>"], 
+            "after": ["<Esc>"] 
+        }, 
+        { 
+            "before": ["<C-h>"], 
+            "after": ["<C-b>"] 
+        } 
+    ], 
+    "vim.normalModeKeyBindings": [ 
+    ], 
+    "vim.normalModeKeyBindingsNonRecursive": [ 
+        { 
+            "before": ["¤"], 
+            "after": ["<end>"] 
+        }, 
+        { 
+            "before": ["^"], 
+            "after": ["0"] 
+        }, 
+        { 
+            "before": ["0"], 
+            "after": ["^"] 
+        } 
+    ], 
+    "vim.visualModeKeyBindingsNonRecursive": [
+        { 
+            "before": ["¤"], 
+            "after": ["<end>"] 
+        }, 
+        { 
+            "before": ["^"], 
+            "after": ["0"] 
+        }, 
+        { 
+            "before": ["0"], 
+            "after": ["^"] 
+        } 
+    ],
+    "vim.smartRelativeLine": true, 
+    "vim.useSystemClipboard": true,
+    "C_Cpp.default.cppStandard": "c++20"
+}
