@@ -25,7 +25,11 @@
         { 
             "before": ["0"], 
             "after": ["^"] 
-        } 
+        },
+        {
+            "before": ["å"],
+            "after": ["\"", "_", "d", "i", "w", "P"]
+        }
     ], 
     "vim.visualModeKeyBindingsNonRecursive": [
         { 
